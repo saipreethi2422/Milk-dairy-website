@@ -1,1 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Milk Dairy Products</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>Our Products</h1>
+    <div class="products">
+        <!-- Milk -->
+        <div class="product">
+            <img src="{{ url_for('static', filename='images/millk.jpg') }}" alt="Milk">
+            <h3>Milk</h3>
+            <p>₹100</p>
+        </div>
+
+        <!-- Paneer -->
+        <div class="product">
+            <img src="{{ url_for('static', filename='images/Panner.jpg') }}" alt="Paneer">
+            <h3>Paneer 250g</h3>
+            <p>₹250</p>
+        </div>
+
+        <!-- Ghee -->
+        <div class="product">
+            <img src="{{ url_for('static', filename='images/Ghee.jpg') }}" alt="Ghee">
+            <h3>Ghee</h3>
+            <p>₹1000</p>
+        </div>
+
+        <!-- Curd -->
+        <div class="product">
+            <img src="{{ url_for('static', filename='images/Curd.jpg') }}" alt="Curd">
+            <h3>Curd</h3>
+            <p>₹150</p>
+        </div>
+    </div>
+
+    <a href="/thankyou" class="btn">Place Order</a>
+</body>
+</html>
 
