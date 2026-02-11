@@ -1,0 +1,3 @@
+venv/
+jenkins.war
+__pycache__/
